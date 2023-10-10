@@ -1,0 +1,90 @@
+#btn-iniciar {
+    display: inline-block;
+    font-family: 'Sarala', sans-serif;    
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo {
+    display: block;
+    font-family: 'Sarala', sans-serif;
+    font-size: 5vw;
+    margin-bottom: 45vh;
+    text-align: center;
+    font-weight: 200;
+    color:#087EA4
+}
+
+
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #087EA4;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-weight: 500;
+  height: 50px;
+  width: 20vw;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: white;
+  border: 0.5px solid #087EA4;
+  color: #087EA4;
+}
+
+.button-17:active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    outline: none;
+}
+
+.button-17:focus {
+    outline: none;
+    border: 0.5px solid #087EA4;
+}
+
+.button-17:not(:disabled) {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-17:not(:disabled):hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-17:not(:disabled):focus {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-17:not(:disabled):active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-17:disabled {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
