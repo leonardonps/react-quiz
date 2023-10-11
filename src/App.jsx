@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/pergunta-1" element={<Questao perguntaRespostas={bancoPerguntasRespostas[0]}/>}></Route>
+          <Route path="/pergunta-1" element={<Questao id={1} perguntaRespostas={bancoPerguntasRespostas[0]}/>}></Route>
       </Routes>
     </BrowserRouter>
   )

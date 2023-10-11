@@ -2,7 +2,7 @@ const bancoPerguntasRespostas = [
     {
         id: 1,
         pergunta: "O que é React?",
-        respostas: ["É um framework", "É uma biblioteca"]
+        respostas: ["É um framework", "É uma biblioteca", "É pau", "É pedra", "É o fim do caminho"]
     }, 
     {
         id: 2,
