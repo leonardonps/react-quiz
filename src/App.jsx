@@ -4,13 +4,19 @@ import Questao from './components/questao/Questao'
 import bancoPerguntasRespostas from './banco-perguntas-respostas/BancoPerguntasRespostas'
 
 
-
 function App() {
+
   return (
+    
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/pergunta-1" element={<Questao id={1} perguntaRespostas={bancoPerguntasRespostas[0]}/>}></Route>
+          
+          {
+            bancoPerguntasRespostas.map( (perguntaRespostas, index) => 
+              <Route path={`/pergunta/${index+1}`} key={index} element = {<Questao id={index+1} perguntaRespostas = {perguntaRespostas}/>}></Route>
+            )
+          }
       </Routes>
     </BrowserRouter>
   )
