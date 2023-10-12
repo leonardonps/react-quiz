@@ -8,7 +8,7 @@ const Home = () => {
     <div>
      <PainelCentral>
         <img src="" alt="Logo React" />
-        <h1 id="titulo">Léo é massa</h1>
+        <h1 id="titulo">React Quiz</h1>
          <Link to="/pergunta/1"><button class="button-17"
                 id="btn-iniciar">Iniciar o React Quiz</button></Link>
      </PainelCentral>
