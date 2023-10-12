@@ -3,21 +3,3 @@ body{
     height: 96vh;
     position: relative
 }
-
-.painel-central {
-    background-color: white;
-    position: absolute;
-    display: block;
-
-    text-align: center;
-
-    top: 51%;
-    left:50%;
-
-    height: 90%;
-    width: 55%;
-
-    border-radius: 7px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transform: translate(-50%, -50%)
-}

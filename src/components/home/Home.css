@@ -1,7 +1,7 @@
 #btn-iniciar {
     display: inline-block;
     font-family: 'Sarala', sans-serif;    
-    font-size: 28px;
+    font-size: 2vw;
     align-items: center;
     text-align: center;
 }
@@ -10,7 +10,7 @@
     display: block;
     font-family: 'Sarala', sans-serif;
     font-size: 5vw;
-    margin-bottom: 45vh;
+    margin-bottom: 40vh;
     text-align: center;
     font-weight: 200;
     color:#087EA4
@@ -54,7 +54,7 @@
 
 .button-17:hover {
   background: white;
-  border: 0.5px solid #087EA4;
+  border: 1.25px solid #087EA4;
   color: #087EA4;
 }
 
