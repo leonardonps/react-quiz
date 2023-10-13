@@ -11,11 +11,13 @@ const Pergunta = (props) => {
   return (
    <div>
       <PainelCentral>
-        <h1 class="pergunta">{props.id}. {props.perguntaRespostas.pergunta}</h1>
+        <h1 class="pergunta">{props.id}. {props.pontos}{props.perguntaRespostas.pergunta}</h1>
         <Respostas 
         respostas = {props.perguntaRespostas.respostas} 
         respostaCorreta = {props.perguntaRespostas.respostaCorreta}
         setDisabledParent = {setDisabledParent}
+        adicionarUmPonto = {props.adicionarUmPonto}
+        pontos = {props.pontos}
         />
         <BotaoProximaPagina 
         proximaPagina = {props.proximaPagina}
