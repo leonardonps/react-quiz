@@ -1,3 +1,5 @@
+
+
 #btn-iniciar {
     display: inline-block;
     font-family: 'Sarala', sans-serif;    
@@ -8,16 +10,20 @@
 
 #titulo {
     display: block;
-    font-family: 'Sarala', sans-serif;
     font-size: 5vw;
-    margin-bottom: 40vh;
+    margin-top: 0vh;
+    margin-bottom: 24.5vh;
     text-align: center;
     font-weight: 200;
     color:#087EA4
 }
-
+#logoHome{
+    margin-top: 2vh;
+   
+}
 
 /* CSS */
+
 .button-17 {
   align-items: center;
   appearance: none;
