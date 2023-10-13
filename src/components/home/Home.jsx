@@ -9,7 +9,7 @@ const Home = () => {
      <PainelCentral>
         <img src="" alt="Logo React" />
         <h1 id="titulo">React Quiz </h1>
-         <Link to="/pergunta/1"><button class="button-17"
+         <Link to="/pergunta/1"><button className="button-17"
                 id="btn-iniciar">Iniciar o React Quiz</button></Link>
      </PainelCentral>
     </div>

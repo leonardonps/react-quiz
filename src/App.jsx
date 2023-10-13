@@ -1,24 +1,37 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useState } from 'react'
 import Home from './components/home/Home'
 import Pergunta from './components/pergunta/Pergunta'
 import bancoPerguntasRespostas from './banco-perguntas-respostas/BancoPerguntasRespostas'
+import Resultado from './components/resultado/Resultado'
+import './App.css'
 
 
 function App() {
 
+  const [pontos, adicionarUmPonto] = useState(0)
+
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" 
+                 element={<Home />}></Route>
+          <Route path="/resultado" element = {
+                <Resultado
+                  pontos = {pontos}
+                  qtdPerguntas = {(bancoPerguntasRespostas.length)}/>}></Route>
           {
             bancoPerguntasRespostas.map( (perguntaRespostas, index) => 
               <Route path={`/pergunta/${index+1}`} key={index} element = {
-              <Pergunta 
-                id={index+1} 
-                key={index+1}
-                perguntaRespostas = {perguntaRespostas} 
-                proximaPagina = {isFinalQuestion(index)}
-                />}></Route>
+                <Pergunta 
+                 id = {index+1} 
+                 key = {index+1}
+                 perguntaRespostas = {perguntaRespostas} 
+                 proximaPagina = {isFinalQuestion(index)}
+                 adicionarUmPonto = {adicionarUmPonto}
+                 pontos = {pontos}
+                />
+              }></Route>
             )
           }
       </Routes>
