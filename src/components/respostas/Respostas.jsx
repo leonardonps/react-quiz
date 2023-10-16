@@ -42,7 +42,7 @@ const Respostas = (props) => {
       {
         props.respostas.map( (resposta) =>
       
-        <input type="button" className='button-resposta' value={resposta} onClick={e => {
+        <input type="button" className='button-resposta' disabled = {disabled} value={resposta} onClick={e => {
                          confirmarResposta(e) }} />
           
           
