@@ -5,11 +5,11 @@
 
     text-align: center;
 
-    top: 51%;
-    left:50%;
+    top: 49vh;
+    left:50vw;
 
-    height: 90%;
-    width: 55%;
+    height: 80vh;
+    width: 53vw;
 
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

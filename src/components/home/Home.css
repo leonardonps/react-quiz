@@ -14,8 +14,6 @@
     color: var(--azul-react);
 }
 
-
-/* CSS */
 .button-17 {
   align-items: center;
   appearance: none;
@@ -29,7 +27,7 @@
   display: inline-flex;
   fill: currentcolor;
   font-weight: 500;
-  height: 9.8vh;
+  height: 8.75vh;
   width: 20vw;
   justify-content: center;
   letter-spacing: .25px;
@@ -45,7 +43,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
-  will-change: transform,opacity;
+  will-change: transform, opacity;
   z-index: 0;
 }
 
