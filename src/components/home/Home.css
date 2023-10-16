@@ -2,7 +2,6 @@
 
 #btn-iniciar {
     display: inline-block;
-    font-family: 'Sarala', sans-serif;    
     font-size: 2vw;
     align-items: center;
     text-align: center;
@@ -15,19 +14,18 @@
     margin-bottom: 24.5vh;
     text-align: center;
     font-weight: 200;
-    color:#087EA4
+    color: var(--azul-react);
 }
+
 #logoHome{
     margin-top: 2vh;
    
 }
 
-/* CSS */
-
 .button-17 {
   align-items: center;
   appearance: none;
-  background-color: #e67206;
+  background-color: var(--laranja-destaque);
   border-radius: 24px;
   border-style: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -36,9 +34,8 @@
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-weight: 500;
-  height: 9.8vh;
+  height: 8.75vh;
   width: 20vw;
   justify-content: center;
   letter-spacing: .25px;
@@ -54,25 +51,24 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
-  will-change: transform,opacity;
+  will-change: transform, opacity;
   z-index: 0;
 }
 
 .button-17:hover {
-  background: white;
-  border: 1.25px solid #e67206;
-  color: #e67206;
+  background: rgba(241, 241, 241, 0.425);
+  border: 1.25px solid var(--laranja-destaque);
+  color: var(--laranja-destaque);
 }
 
 .button-17:active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
     outline: none;
 }
 
 .button-17:focus {
     outline: none;
-    border: 0.5px solid #087EA4;
+    border: 0.5px solid var(--laranja-destaque);
 }
 
 .button-17:not(:disabled) {

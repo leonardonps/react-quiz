@@ -1,0 +1,46 @@
+.button-proxima-pagina {
+    margin-top: 3.5vh;
+    margin-left: 35vw;
+    align-items: center;
+    appearance: none;
+    background-color: var(--laranja-destaque);
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-weight: 500;
+    font-size: 1.15vw;
+    height: 6.5vh;
+    width: 20vw;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform, opacity;
+    z-index: 0;
+  }
+  
+  .button-17:hover {
+    background: rgba(241, 241, 241, 0.425);
+    border: 1.25px solid var(--laranja-destaque);
+    color: var(--laranja-destaque);
+  }
+
+
+.button-proxima-pagina:disabled{
+    background-color: var(--cinza);
+}

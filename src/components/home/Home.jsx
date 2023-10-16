@@ -11,8 +11,7 @@ const Home = () => {
       <PainelCentral>
         <img id='logoHome'src={LogoReact} alt="LogoReact"/>
         <h1 id="titulo">React Quiz</h1>
-        <Link to="/pergunta/1"><button class="button-17"
-                id="btn-iniciar">Iniciar o React Quiz</button></Link>
+        <Link to="/pergunta/1"><button class="button-17" id="btn-iniciar">Iniciar o React Quiz</button></Link>
      </PainelCentral>
     </div>
 
