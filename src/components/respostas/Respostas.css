@@ -1,10 +1,14 @@
-.label-resposta{
+.button-resposta{
+    display: block;
+
     height: 7.25vh;
+    width: 51vw;
+
     margin: 2%; 
     margin-top: 1.5%;
-    margin-bottom: 1.5% ;
-    display: block;
-    padding-top: 1%;
+    margin-bottom: 1.5%;
+    
+    padding-left:  0.8vw;
 
     font-size: 1.6vw;
     color: #151B17;
@@ -18,17 +22,24 @@
     box-shadow: rgba(223, 222, 222, 0.3) 0px 0.75px 1px 0px, rgba(204, 209, 212, 0.226) 0px 2px 6px 2px;
 }
 
-.label-resposta:hover{
-    background-color: #ebe9e971;
-    border-radius: 8px;
-}
 
-.label-resposta:checked{
+.button-resposta:hover{
     background-color: #ebe9e971;
-    border-radius: 8px;
 }
 
 .span-resposta{
-    margin-left: 0.5%;
     padding-top: 2%;
+    margin-left: 10vw;
+}
+
+.swal2-confirm{
+    width: 32vmin;
+}
+
+.swal2-cancel{
+    width: 32vmin;
+}
+
+.swal2-cancel:focus{
+    box-shadow: 0 0 0 3px rgba(147, 148, 150, 0.5) !important;
 }
