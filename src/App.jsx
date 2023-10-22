@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import Home from './components/home/Home'
-import Pergunta from './components/pergunta/Pergunta'
+import Home from './components/painel-central/home/Home'
+import Pergunta from './components/painel-central/pergunta/Pergunta'
 import bancoPerguntasRespostas from './banco-perguntas-respostas/BancoPerguntasRespostas'
-import Resultado from './components/resultado/Resultado'
-import './App.css'
+import Resultado from './components/painel-central/resultado/Resultado'
 
+import './App.css'
 
 function App() {
 
-  const [pontos, adicionarUmPonto] = useState(0)
+  const [pontos, adicionarUmPonto] = useState(0);
 
   return (
     <BrowserRouter>
@@ -46,5 +46,8 @@ function isFinalQuestion(index) {
     return `/pergunta/${(index+2)}`
   }
 }
+
+
+
 
 export default App

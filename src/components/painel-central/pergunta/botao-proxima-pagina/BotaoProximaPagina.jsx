@@ -13,10 +13,12 @@ const BotaoProximaPagina = (props) => {
   }
 
   return (
-    <div>
-    <Link to={props.proximaPagina}><button className='button-proxima-pagina' disabled={!props.disabledParent}>{textoBotao}</button></Link>
+    <div id="area-botao">
+    <Link to={props.disabledParent ? `${props.proximaPagina}` : '#'} disabled={!props.disabledParent}><button className='botao-proxima-pagina' disabled={!props.disabledParent}>{textoBotao}</button></Link>
     </div>
   )
 }
 
 export default BotaoProximaPagina
+
+// 

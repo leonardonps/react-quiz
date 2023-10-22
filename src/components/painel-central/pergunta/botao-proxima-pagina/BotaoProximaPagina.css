@@ -1,11 +1,16 @@
-.button-proxima-pagina {
-    margin-top: 3.5vh;
-    margin-left: 35vw;
+#area-botao{
+  margin-top: 1.85vh;
+  padding-left: 35vw;
+  display: inline-block;
+}
+
+.botao-proxima-pagina {
     align-items: center;
     appearance: none;
     background-color: var(--laranja-destaque);
     border-radius: 24px;
     border-style: none;
+    text-decoration: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     box-sizing: border-box;
     color: white;
@@ -15,7 +20,7 @@
     font-weight: 500;
     font-size: 1.15vw;
     height: 6.5vh;
-    width: 20vw;
+    width: 14.5vw;
     justify-content: center;
     letter-spacing: .25px;
     line-height: normal;
@@ -29,18 +34,15 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: auto;
     will-change: transform, opacity;
     z-index: 0;
-  }
+}
   
-  .button-17:hover {
-    background: rgba(241, 241, 241, 0.425);
-    border: 1.25px solid var(--laranja-destaque);
-    color: var(--laranja-destaque);
-  }
+.botao-proxima-pagina:hover{
+  background-color: var(--laranja-destaque-hover);
+}
 
-
-.button-proxima-pagina:disabled{
-    background-color: var(--cinza);
+.botao-proxima-pagina:disabled{
+  pointer-events: none;
+  background-color: var(--cinza);
 }
