@@ -1,3 +1,10 @@
-.titulo-resultado{
+.titulo-resultado {
     color: var(--laranja-destaque);
+    margin-top: 0px;
+
+}
+
+.imgResult {
+    width: 12vw;
+    height: 12vw;
 }
