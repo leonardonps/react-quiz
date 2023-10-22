@@ -1,6 +1,4 @@
-
-
-#btn-iniciar {
+#botao-iniciar {
     display: inline-block;
     font-size: 2vw;
     align-items: center;
@@ -11,7 +9,7 @@
     display: block;
     font-size: 5vw;
     margin-top: 0vh;
-    margin-bottom: 24.5vh;
+    margin-bottom: 28vh;
     text-align: center;
     font-weight: 200;
     color: var(--azul-react);
@@ -22,7 +20,7 @@
    
 }
 
-.button-17 {
+.botao {
   align-items: center;
   appearance: none;
   background-color: var(--laranja-destaque);
@@ -55,38 +53,38 @@
   z-index: 0;
 }
 
-.button-17:hover {
+.botao:hover {
   background: rgba(241, 241, 241, 0.425);
   border: 1.25px solid var(--laranja-destaque);
   color: var(--laranja-destaque);
 }
 
-.button-17:active {
+.botao:active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     outline: none;
 }
 
-.button-17:focus {
+.botao:focus {
     outline: none;
     border: 0.5px solid var(--laranja-destaque);
 }
 
-.button-17:not(:disabled) {
+.botao:not(:disabled) {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.button-17:not(:disabled):hover {
+.botao:not(:disabled):hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.button-17:not(:disabled):focus {
+.botao:not(:disabled):focus {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.button-17:not(:disabled):active {
+.botao:not(:disabled):active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.button-17:disabled {
+.botao:disabled {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

@@ -3,8 +3,8 @@
 :root {
     --azul-react: #087EA4;
     --laranja-destaque: #e67206;
-    --cinza: #4d515391;
-    --cinza-escuro: #2d2d31e1;
+    --laranja-destaque-hover: #ee8626;
+    --cinza: #b3b2b2;
 
     font-family: 'Urbanistic', sans-serif
 }
