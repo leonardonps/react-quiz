@@ -30,7 +30,7 @@
 }
 
 .resposta-errada {
-    background: url(../../../../assets/incorrect.png) no-repeat right 0.7vw center;
+    background: url(../../../../assets/resposta-errada.png) no-repeat right 0.7vw center;
     background-size: 2.9vw;
     background-color: rgba(221, 0, 0, 0.11);
 
@@ -38,7 +38,7 @@
 }
 
 .resposta-correta {
-    background: url(../../../../assets/correct.png) no-repeat right 0.8vw center;
+    background: url(../../../../assets/resposta-correta.png) no-repeat right 0.8vw center;
     background-size: 2.5vw;
     background-color: rgba(0, 221, 18, 0.137);
 
@@ -49,18 +49,15 @@
     pointer-events: none;
 }
 
-.span-resposta {
-    padding-top: 2%;
-    margin-left: 10vw;
-}
-
 .swal2-confirm {
-    width: 32vmin;
-}
+    width: 14em;
+} 
 
 .swal2-cancel {
-    width: 32vmin;
-}
+    width: 14em;
+} 
+
+
 
 .swal2-cancel:focus {
     box-shadow: 0 0 0 3px rgba(147, 148, 150, 0.5) !important;
