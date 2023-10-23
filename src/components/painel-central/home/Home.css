@@ -1,8 +1,4 @@
-<<<<<<< HEAD:src/components/home/Home.css
-#btn-iniciar {
-=======
 #botao-iniciar {
->>>>>>> c861c8660bd46312e28279251d61430d124c348b:src/components/painel-central/home/Home.css
     display: inline-block;
     font-size: 2vw;
     align-items: center;
@@ -12,13 +8,8 @@
 #titulo {
     display: block;
     font-size: 5vw;
-<<<<<<< HEAD:src/components/home/Home.css
     margin-top: 2vh;
     margin-bottom: 24.5vh;
-=======
-    margin-top: 0vh;
-    margin-bottom: 28vh;
->>>>>>> c861c8660bd46312e28279251d61430d124c348b:src/components/painel-central/home/Home.css
     text-align: center;
     font-weight: 200;
     color: var(--azul-react);
@@ -29,45 +20,6 @@
 
 }
 
-<<<<<<< HEAD:src/components/home/Home.css
-.button-17 {
-    align-items: center;
-    appearance: none;
-    background-color: var(--laranja-destaque);
-    border-radius: 24px;
-    border-style: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    box-sizing: border-box;
-    color: white;
-    cursor: pointer;
-    display: inline-flex;
-    fill: currentcolor;
-    font-weight: 500;
-    height: 8.75vh;
-    width: 20vw;
-    justify-content: center;
-    letter-spacing: .25px;
-    line-height: normal;
-    max-width: 100%;
-    overflow: visible;
-    padding: 2px 24px;
-    position: relative;
-    text-align: center;
-    text-transform: none;
-    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: auto;
-    will-change: transform, opacity;
-    z-index: 0;
-}
-
-.button-17:hover {
-    background: rgba(241, 241, 241, 0.425);
-    border: 1.25px solid var(--laranja-destaque);
-    color: var(--laranja-destaque);
-=======
 .botao {
   align-items: center;
   appearance: none;
@@ -105,7 +57,6 @@
   background: rgba(241, 241, 241, 0.425);
   border: 1.25px solid var(--laranja-destaque);
   color: var(--laranja-destaque);
->>>>>>> c861c8660bd46312e28279251d61430d124c348b:src/components/painel-central/home/Home.css
 }
 
 .botao:active {
