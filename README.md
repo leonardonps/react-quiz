@@ -7,7 +7,7 @@
 
 ## Como está estruturado?
 
-- A estrutura básica se divide em três componentes/telas básicos: Home, Pergunta e Resultado. Todas possuem um componente em comum, o Painel Central. O componente Pergunta possui dois componentes nele: BotaoProximaPagina (responsável por renderizar o botão de próxima página) e Respostas (responsável por gerar as opçoes de respostas). Já o componente Resultado contém um: o PainelResultado.
+- A estrutura básica se divide em três componentes/telas básicos: Home, Pergunta e Resultado. Todas possuem um componente em comum, o Painel Central. O componente Pergunta possui dois componentes nele: BotaoProximaPagina (responsável por renderizar o botão de próxima página) e Respostas (responsável por gerar as opções de respostas). Já o componente Resultado contém um: o PainelResultado.
 - Aqui embaixo há um esquema básico de como o código foi montado:
 
 ## Tecnologias utilizadas
