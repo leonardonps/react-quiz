@@ -8,10 +8,6 @@ const Pergunta = (props) => {
  
   const [disabledParent, setDisabledParent] = useState()
 
-  window.onbeforeunload = () => {
-    window.location.href = "/";
-  }
-
   return (
    <div>
       <PainelCentral>
