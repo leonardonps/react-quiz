@@ -57,16 +57,16 @@
   background: rgba(241, 241, 241, 0.425);
   border: 1.25px solid var(--laranja-destaque);
   color: var(--laranja-destaque);
+  box-shadow: 0 0 0 4px rgba(247, 160, 62, 0.5) !important
+
 }
 
 .botao:active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    outline: none;
 }
 
 .botao:focus {
-    outline: none;
-    border: 0.5px solid var(--laranja-destaque);
+    box-shadow: 0 0 0 4px rgba(247, 160, 62, 0.5) !important
 }
 
 .botao:not(:disabled) {

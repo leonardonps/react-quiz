@@ -1,15 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import { useState } from 'react'
 import Home from './components/painel-central/home/Home'
 import Pergunta from './components/painel-central/pergunta/Pergunta'
 import bancoPerguntasRespostas from './banco-perguntas-respostas/BancoPerguntasRespostas'
 import Resultado from './components/painel-central/resultado/Resultado'
-
 import './App.css'
 
 function App() {
 
   const [pontos, adicionarUmPonto] = useState(0);
+
 
   return (
     <BrowserRouter>

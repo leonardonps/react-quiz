@@ -14,7 +14,7 @@ const BotaoProximaPagina = (props) => {
 
   return (
     <div id="area-botao">
-    <Link to={props.disabledParent ? `${props.proximaPagina}` : '#'} disabled={!props.disabledParent}><button className='botao-proxima-pagina' disabled={!props.disabledParent}>{textoBotao}</button></Link>
+    <Link to={props.disabledParent ? `${props.proximaPagina}` : '#'} disabled={!props.disabledParent} ><button className='botao-proxima-pagina' disabled={!props.disabledParent}>{textoBotao}</button></Link>
     </div>
   )
 }

@@ -50,10 +50,10 @@ const Respostas = (props) => {
       cancelButtonText: 'Escolher outra resposta',
     }).then((result) => {
       if (result.isConfirmed) {
-        desativarRespostas()
-        desativarEfeitoHover()
-        atualizarPontuacaoQuiz(e)
-        destacarCorResposta(e)
+        desativarRespostas();
+        desativarEfeitoHover();
+        atualizarPontuacaoQuiz(e);
+        destacarCorResposta(e);
       }
     })
   }
