@@ -1,5 +1,6 @@
-import React from 'react'
-import './PainelCentral.css'
+import React from 'react';
+import './PainelCentral.css';
+import './PainelCentralResponsive.css';
 
 const PainelCentral = ({children}) => {
   return (

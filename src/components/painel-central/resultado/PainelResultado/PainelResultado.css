@@ -1,0 +1,18 @@
+.titulo-resultado {
+    color: var(--laranja-destaque);
+    margin-top: 0px;
+
+}
+
+.img-resultado {
+    margin-top: 1vh;
+    width: 12vw;
+    height: 12vw;
+}
+
+.mensagem-resultado {
+    color: var(--cinza-escuro);
+    margin: 0.35em;
+}
+
+

@@ -1,0 +1,68 @@
+@media (max-width: 450px) and (max-height: 900px) {
+    .resposta {
+        display: block;
+
+        height: 7vh;
+        width: 65vw;
+
+        margin: 14vw;
+        margin-top: 2vh;
+        margin-bottom: 2.5vh;
+
+        padding-left: 0.75vw;
+        padding-right: 0.75vw;
+
+        font-size: 2.5vw;
+        color: #151B17;
+        text-align: justify;
+        letter-spacing: 0.01vw;
+        line-height: 1.30vh;
+
+        background-color: rgba(246, 251, 255, 0.281);
+
+        border: #c4c0c0a1 solid 0.15px;
+        border-radius: 8px;
+
+        box-shadow: rgba(223, 222, 222, 0.3) 0px 0.75px 1px 0px, rgba(204, 209, 212, 0.226) 0px 2px 6px 2px;
+    }
+
+    .resposta:hover {
+        background-color: #ebe9e971;
+    }
+
+    .resposta-errada {
+        background: url(../../../../assets/resposta-errada.png) no-repeat right 0.7vw center;
+        background-size: 2.9vw;
+        background-color: rgba(221, 0, 0, 0.11);
+
+        padding-right: 4vw;
+    }
+
+    .resposta-correta {
+        background: url(../../../../assets/resposta-correta.png) no-repeat right 0.8vw center;
+        background-size: 2.5vw;
+        background-color: rgba(0, 221, 18, 0.137);
+
+        padding-right: 4vw;
+    }
+
+    .no-hover {
+        pointer-events: none;
+    }
+
+    .swal2-confirm {
+        width: 14em;
+    }
+
+    .swal2-cancel {
+        width: 14em;
+    }
+
+
+
+    .swal2-cancel:focus {
+        box-shadow: 0 0 0 3px rgba(147, 148, 150, 0.5) !important;
+    }
+
+
+}

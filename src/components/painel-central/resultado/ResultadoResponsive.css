@@ -1,0 +1,79 @@
+@media (max-width: 450px) and (max-height: 900px) {
+    .mensagem-resultado {
+        color: var(--cinza-escuro);
+        margin: 0.35em;
+        height: 25vw;
+
+    }
+
+    #botao-voltar-tela-inicial {
+        margin-top: 12vh;
+        align-items: center;
+        appearance: none;
+        background-color: var(--azul-react);
+        border-radius: 24px;
+        border-style: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-sizing: border-box;
+        color: white;
+        cursor: pointer;
+        display: inline-flex;
+        fill: currentcolor;
+        font-size: 5vw;
+        font-weight: 500;
+        height: 8.5vh;
+        width: 20vw;
+        justify-content: center;
+        letter-spacing: .25px;
+        line-height: normal;
+        max-width: 100%;
+        overflow: visible;
+        padding: 2px 24px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: auto;
+        will-change: transform, opacity;
+        z-index: 0;
+    }
+
+
+    #botao-voltar-tela-inicial:hover {
+        background-color: var(--azul-react-hover);
+    }
+
+    #botao-voltar-tela-inicial:active {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+    }
+
+    #botao-voltar-tela-inicial:focus {
+        outline: none;
+        border: 0.5px solid var(--azul-react);
+    }
+
+    #botao-voltar-tela-inicial:not(:disabled) {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #botao-voltar-tela-inicial:not(:disabled):hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #botao-voltar-tela-inicial:not(:disabled):focus {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #botao-voltar-tela-inicial:not(:disabled):active {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #botao-voltar-tela-inicial:disabled {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}

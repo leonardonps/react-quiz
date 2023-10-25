@@ -1,8 +1,9 @@
-import React from 'react'
-import "./Home.css"
-import { Link } from 'react-router-dom'
-import PainelCentral from '../PainelCentral'
-import LogoReact from '../../../assets/react-logo.png'
+import React from 'react';
+import "./Home.css";
+import "./HomeResponsive.css";
+import { Link } from 'react-router-dom';
+import PainelCentral from '../PainelCentral';
+import LogoReact from '../../../assets/react-logo.png';
 
 
 const Home = () => {

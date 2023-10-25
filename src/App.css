@@ -2,12 +2,16 @@
 
 :root {
     --azul-react: #087EA4;
+    --azul-react-hover: rgb(48, 148, 182);
     --laranja-destaque: #e67206;
     --laranja-destaque-hover: #ee8626;
     --cinza: #b3b2b2;
+    --cinza-escuro:#47484d;
 
     font-family: 'Urbanistic', sans-serif
 }
+
+
 
 body{    
     background-color: var(--azul-react);

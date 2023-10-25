@@ -1,0 +1,20 @@
+@media (max-width: 450px) and (max-height: 900px) {
+    .painel-central {
+        background-color: white;
+        position: absolute;
+        display: block;
+
+        text-align: center;
+
+        top: 49vh;
+        left: 48.5vw;
+        
+
+        height: 96vh;
+        width: 93vw;
+
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transform: translate(-50%, -50%)
+    }
+}

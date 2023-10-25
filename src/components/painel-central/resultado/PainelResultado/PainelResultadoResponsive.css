@@ -1,0 +1,14 @@
+@media (max-width: 450px) and (max-height: 900px) {
+    .titulo-resultado {
+        color: var(--laranja-destaque);
+        margin-top: 0px;
+
+    }
+
+    .img-resultado {
+        margin-top: 1vh;
+        width: 28vw;
+        height: 28vw;
+    }
+
+}

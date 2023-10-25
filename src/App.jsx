@@ -18,8 +18,10 @@ function App() {
                  element={<Home />}></Route>
           <Route path="/resultado" element = {
                 <Resultado
+                  qtdPerguntas = {(bancoPerguntasRespostas.length)}
                   pontos = {pontos}
-                  qtdPerguntas = {(bancoPerguntasRespostas.length)}/>}></Route>
+                  adicionarUmPonto = {adicionarUmPonto}
+                  />}></Route>
           {
             bancoPerguntasRespostas.map( (perguntaRespostas, index) => 
               <Route path={`/pergunta/${index+1}`} key={index} element = {

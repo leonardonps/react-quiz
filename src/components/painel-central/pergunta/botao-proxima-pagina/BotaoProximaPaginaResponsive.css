@@ -1,10 +1,11 @@
-#area-botao{
-  margin-top: 2.10vh;
-  padding-left: 35vw;
-  display: inline-block;
-}
+@media (max-width: 450px) and (max-height: 900px) {
+  #area-botao {
+    margin-top: 2.75vh;
+    padding-left: 1.2vw;
+    display: inline-block;
+  }
 
-.botao-proxima-pagina {
+  .botao-proxima-pagina {
     align-items: center;
     appearance: none;
     background-color: var(--laranja-destaque);
@@ -18,9 +19,9 @@
     display: inline-flex;
     fill: currentcolor;
     font-weight: 500;
-    font-size: 1.15vw;
-    height: 6.5vh;
-    width: 14.5vw;
+    font-size: 4.25vw;
+    height: 6.7vh;
+    width: 32vw;
     justify-content: center;
     letter-spacing: .25px;
     line-height: normal;
@@ -30,26 +31,27 @@
     position: relative;
     text-align: center;
     text-transform: none;
-    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform, opacity;
     z-index: 0;
-}
-  
-.botao-proxima-pagina:hover{
-  background-color: var(--laranja-destaque-hover);
-}
+  }
 
-.botao-finalizar-quiz{
-  outline-offset: 0.25vw;
-  outline-style: solid;
-  outline-color: var(--laranja-destaque);
-  outline-width: 0.15vw;
-}
+  .botao-proxima-pagina:hover {
+    background-color: var(--laranja-destaque-hover);
+  }
 
-.botao-proxima-pagina:disabled{
-  pointer-events: none;
-  background-color: var(--cinza);
+  .botao-finalizar-quiz {
+    outline-offset: 0.25vw;
+    outline-style: solid;
+    outline-color: var(--laranja-destaque);
+    outline-width: 0.15vw;
+  }
+
+  .botao-proxima-pagina:disabled {
+    pointer-events: none;
+    background-color: var(--cinza);
+  }
 }

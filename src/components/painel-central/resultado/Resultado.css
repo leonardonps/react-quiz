@@ -1,16 +1,6 @@
-.mensagem-resultado {
-    color: var(--cinza-escuro)
-}
 
-#btn-reset {
-    display: inline-block;
-    font-size: 2vw;
-    align-items: center;
-    text-align: center;
+#botao-voltar-tela-inicial {
     margin-top: 15vh;
-}
-
-.button-reset {
     align-items: center;
     appearance: none;
     background-color: var(--azul-react);
@@ -23,8 +13,8 @@
     display: inline-flex;
     fill: currentcolor;
     font-weight: 500;
-    height: 8.75vh;
-    width: 20vw;
+    font-size: 1em;
+    height: 3.5em;
     justify-content: center;
     letter-spacing: .25px;
     line-height: normal;
@@ -43,40 +33,31 @@
     z-index: 0;
 }
 
-.button-reset:hover {
-    background: rgba(241, 241, 241, 0.425);
-    border: 1.25px solid var(--azul-react);
-    color: var(--azul-react);
 
+#botao-voltar-tela-inicial:hover {
+    background-color: var(--azul-react-hover);
 }
 
-
-.button-reset:active {
+#botao-voltar-tela-inicial:active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     outline: none;
 }
-
-.button-reset:focus {
+#botao-voltar-tela-inicial:focus {
     outline: none;
     border: 0.5px solid var(--azul-react);
 }
-
-.button-reset:not(:disabled) {
+#botao-voltar-tela-inicial:not(:disabled) {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-.button-reset:not(:disabled):hover {
+#botao-voltar-tela-inicial:not(:disabled):hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-.button-reset:not(:disabled):focus {
+#botao-voltar-tela-inicial:not(:disabled):focus {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-.button-reset:not(:disabled):active {
+#botao-voltar-tela-inicial:not(:disabled):active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-.button-reset:disabled {
+#botao-voltar-tela-inicial:disabled {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

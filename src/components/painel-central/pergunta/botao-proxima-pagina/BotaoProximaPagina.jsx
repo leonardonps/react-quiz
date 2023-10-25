@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './BotaoProximaPagina.css'
+import './BotaoProximaPaginaResponsive.css'
 
 const BotaoProximaPagina = (props) => {
 
   let textoBotao;
 
   if(props.proximaPagina === "/resultado") {
-    textoBotao = "Finalizar o quiz"
+    textoBotao = "Finalizar o quiz";
   } else {
-    textoBotao = "Próxima Pergunta"
+    textoBotao = "Próxima Pergunta";
   }
 
   return (
@@ -20,5 +21,3 @@ const BotaoProximaPagina = (props) => {
 }
 
 export default BotaoProximaPagina
-
-// 

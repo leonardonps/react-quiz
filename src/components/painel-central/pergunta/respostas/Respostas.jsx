@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import './Respostas.css'
-import Swal from 'sweetalert2'
+import React, { useState } from 'react';
+import './Respostas.css';
+import "./RespostasResponsive.css";
+import Swal from 'sweetalert2';
 
 
 const Respostas = (props) => {
@@ -15,8 +16,8 @@ const Respostas = (props) => {
   function desativarEfeitoHover() {
     const elementosRespostas = Array.from(document.querySelectorAll(`button[class="resposta"]`));
 
-    elementosRespostas.map(element => {
-      element.classList.add('no-hover');
+    elementosRespostas.map(elemento => {
+      elemento.classList.add('no-hover');
     })
   }
 

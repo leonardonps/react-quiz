@@ -1,0 +1,92 @@
+@media (max-width: 450px) and (max-height: 900px) {
+    #botao-iniciar {
+        display: inline-block;
+        font-size: 5vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo {
+        display: block;
+        font-size: 10vw;
+        margin-top: 2vh;
+        margin-bottom: 24.5vh;
+        text-align: center;
+        font-weight: 200;
+        color: var(--azul-react);
+    }
+
+    #logoHome {
+        margin-top: 2vh;
+
+    }
+
+    .botao {
+        align-items: center;
+        appearance: none;
+        background-color: var(--laranja-destaque);
+        border-radius: 24px;
+        border-style: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-sizing: border-box;
+        color: white;
+        cursor: pointer;
+        display: inline-flex;
+        fill: currentcolor;
+        font-weight: 500;
+        height: 8.75vh;
+        width: 20vw;
+        justify-content: center;
+        letter-spacing: .25px;
+        line-height: normal;
+        max-width: 100%;
+        overflow: visible;
+        padding: 2px 24px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: auto;
+        will-change: transform, opacity;
+        z-index: 0;
+    }
+
+    .botao:hover {
+        background: rgba(241, 241, 241, 0.425);
+        border: 1.25px solid var(--laranja-destaque);
+        color: var(--laranja-destaque);
+    }
+
+    .botao:active {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+    }
+
+    .botao:focus {
+        outline: none;
+        border: 0.5px solid var(--laranja-destaque);
+    }
+
+    .botao:not(:disabled) {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .botao:not(:disabled):hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .botao:not(:disabled):focus {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .botao:not(:disabled):active {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .botao:disabled {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
