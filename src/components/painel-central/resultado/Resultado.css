@@ -40,6 +40,7 @@
 
 #botao-voltar-tela-inicial:hover {
     background-color: var(--azul-react-hover);
+    box-shadow: 0 0 0 3px rgba(113, 186, 255, 0.466) !important
 }
 
 #botao-voltar-tela-inicial:active {
@@ -47,8 +48,8 @@
     outline: none;
 }
 #botao-voltar-tela-inicial:focus {
-    outline: none;
-    border: 0.5px solid var(--azul-react);
+    box-shadow: 0 0 0 3px rgba(113, 186, 255, 0.466) !important
+
 }
 #botao-voltar-tela-inicial:not(:disabled) {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

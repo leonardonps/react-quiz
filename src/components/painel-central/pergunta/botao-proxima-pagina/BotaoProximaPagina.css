@@ -1,5 +1,5 @@
 #area-botao{
-  margin-top: 2.10vh;
+  margin-top: 2.05vh;
   padding-left: 35vw;
   display: inline-block;
 }
@@ -40,6 +40,11 @@
   
 .botao-proxima-pagina:hover{
   background-color: var(--laranja-destaque-hover);
+  box-shadow: 0 0 0 4px rgba(247, 160, 62, 0.5) !important
+}
+
+.botao-proxima-pagina:focus {
+  box-shadow: 0 0 0 3.5px rgba(247, 160, 62, 0.5) !important
 }
 
 .botao-finalizar-quiz{

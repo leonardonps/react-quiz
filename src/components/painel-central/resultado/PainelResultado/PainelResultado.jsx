@@ -37,7 +37,7 @@ const PainelResultado = (props) => {
       <>
         <img className="img-resultado" src={ImgResult3} alt="Emblema Mestre das Reações" />
         <h1 className="titulo-resultado">O Mestre das Reações</h1>
-        <h2 className="mensagem-resultado"> Parabéns! Um novo mestre do universo Front-End está a caminho... </h2>
+        <h2 className="mensagem-resultado">Parabéns! Um novo mestre do universo Front-End está a caminho... </h2>
       </>
     );
   } else if (
@@ -48,15 +48,15 @@ const PainelResultado = (props) => {
       <>
         <img className="img-resultado" src={ImgResult4} alt="Emblema Átomo Nuclear" />
         <h1 className="titulo-resultado">O Átomo Nuclear</h1>
-        <h2 className="mensagem-resultado"> Parabéns! Você conhece mesmo sobre o React.</h2>
+        <h2 className="mensagem-resultado">Parabéns! Você conhece mesmo sobre o React.</h2>
       </>
     );
   } else if (porcentagemPontuacao === 100) {
     return (
       <>
         <img className="img-resultado" src={ImgResult5} alt="Emblema Radioativo" />
-        <h1 className="titulo-resultado">Radioativo</h1>
-        <h2 className="mensagem-resultado"> React rocks!</h2>
+        <h1 className="titulo-resultado">Oppenheimer</h1>
+        <h2 className="mensagem-resultado">Parabéns! Você demonstrou ser um verdadeiro entusiasta do front-end</h2>
       </>
     );
   }
