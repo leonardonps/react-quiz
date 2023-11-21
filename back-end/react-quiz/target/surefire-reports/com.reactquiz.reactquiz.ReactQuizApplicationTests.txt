@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.reactquiz.reactquiz.ReactQuizApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.326 s - in com.reactquiz.reactquiz.ReactQuizApplicationTests
