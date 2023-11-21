@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ReactQuizApplication {
 
+	//Testes
 	public static void main(String[] args) {
 		SpringApplication.run(ReactQuizApplication.class, args);
 	}
