@@ -11,12 +11,16 @@
 	<groupId>com.react-quiz</groupId>
 	<artifactId>react-quiz</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>React Quiz</name>
-	<description>Back-end do projeto do React Quiz</description>
+	<name>react-quiz</name>
+	<description>React Quiz</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
