@@ -1,7 +1,7 @@
 FROM ubuntu:latest AS build
 
 RUN apt-get update
-RUN apt-get install -y amazon-corretto-21-jdk
+RUN amazoncorretto:21 java -version
 
 COPY . .
 
