@@ -1,13 +1,3 @@
-FROM ubuntu:latest AS build
-
-RUN apt-get update
-RUN amazoncorretto:21 java -version
-
-COPY . .
-
-RUN apt-get install maven -y
-RUN mvn clean install
-
 FROM amazoncorretto:21
 VOLUME /tmp
 COPY --from=build /target/react-quiz-0.0.1-SNAPSHOT.jar app.jar
