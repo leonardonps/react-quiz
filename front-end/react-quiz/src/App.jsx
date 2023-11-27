@@ -5,7 +5,7 @@ import Pergunta from './components/painel-central/pergunta/Pergunta'
 import Resultado from './components/painel-central/resultado/Resultado'
 import './App.css'
 
-const url ="http://localhost:3000/bancoPerguntasRespostas";
+const url ="https://json-server-khaki-alpha.vercel.app/bancoPerguntasRespostas";
 
 function App() {
 
