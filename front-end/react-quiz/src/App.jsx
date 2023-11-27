@@ -1,14 +1,27 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Home from './components/painel-central/home/Home'
 import Pergunta from './components/painel-central/pergunta/Pergunta'
-import bancoPerguntasRespostas from './banco-perguntas-respostas/BancoPerguntasRespostas'
 import Resultado from './components/painel-central/resultado/Resultado'
 import './App.css'
+
+const url ="http://localhost:3000/bancoPerguntasRespostas";
 
 function App() {
 
   const [pontos, adicionarUmPonto] = useState(0);
+
+  const [bancoPerguntasRespostas, setBancoPerguntasRespostas] = useState([]);
+
+  useEffect (() => {
+    async function fetchData (){
+      const res = await fetch (url);
+      const data = await res.json();
+
+      setBancoPerguntasRespostas(data)
+    }
+  fetchData()
+  }, [])
 
 
   return (
@@ -29,7 +42,7 @@ function App() {
                  id = {index+1} 
                  key = {index+1}
                  perguntaRespostas = {perguntaRespostas} 
-                 proximaPagina = {isFinalQuestion(index)}
+                 proximaPagina = {isFinalQuestion(index, bancoPerguntasRespostas.length)}
                  adicionarUmPonto = {adicionarUmPonto}
                  pontos = {pontos}
                 />
@@ -39,17 +52,16 @@ function App() {
       </Routes>
     </BrowserRouter>
   )
+  
 }
 
-function isFinalQuestion(index) {
-  if(index === (bancoPerguntasRespostas.length - 1)) {
+function isFinalQuestion(index, tamanhoBanco) {
+  if(index === (tamanhoBanco - 1)) {
     return "/resultado";
   } else {
     return `/pergunta/${(index+2)}`
   }
 }
-
-
 
 
 export default App

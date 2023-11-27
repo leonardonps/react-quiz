@@ -1,0 +1,56 @@
+{
+    "bancoPerguntasRespostas":[
+        {
+            "pergunta": "O que é React?",
+            "respostas": ["Um sistema de gerenciamento de banco de dados", "Uma linguagem de programação", "Uma biblioteca JavaScript para criação de interfaces de usuário", "Um sistema operacional", "Um servidor web"],
+            "respostaCorreta": "Uma biblioteca JavaScript para criação de interfaces de usuário"
+        }, 
+        {
+            "pergunta": "Qual é o principal objetivo do Front End no desenvolvimento Web?",
+            "respostas": ["Gerenciar bancos de dados", "Lidar com a lógica do servidor", "Criar a interface com a qual os usuários interagem", "Fornecer segurança ao aplicativo", "Otimizar o desempenho do servidor"],
+            "respostaCorreta": "Criar a interface com a qual os usuários interagem"
+        },
+        {
+            "pergunta": "Qual dos seguintes não é um conceito chave no React?",
+            "respostas": ["Componentes", "Estado (State)", "Rotas (Routes)", "Reconciliação (Reconciliation)", "Propriedades (Props)"], 
+            "respostaCorreta": "Rotas (Routes)"
+        },
+        {
+            "pergunta": "O que é JSX em React?" ,
+            "respostas": [" Um formato de arquivo de imagem", "Uma extensão de arquivo JavaScript", "Uma linguagem de marcação que mistura HTML com JavaScript", "Um sistema de gerenciamento de banco de dados", "Um framework de gerenciamento de estado"],
+            "respostaCorreta": "Uma linguagem de marcação que mistura HTML com JavaScript"
+        }, 
+        {
+            "pergunta": "Qual é a função do Virtual DOM (DOM Virtual) no React?" ,
+            "respostas": ["Representar a árvore de elementos do DOM de forma física", "Controlar o acesso ao banco de dados", "Melhorar a segurança do aplicativo", " Otimizar o desempenho do servidor", "Ajudar a otimizar as atualizações de elementos na interface do usuário"],
+            "respostaCorreta": "Ajudar a otimizar as atualizações de elementos na interface do usuário"
+        },
+        {
+            "pergunta": "Qual é a ferramenta mais comumente usada para gerenciar pacotes e dependências em projetos React?" ,
+            "respostas": ["Webpack", "Babel", "NPM (Node Package Manager)", "Yarn", "jQuery"],
+            "respostaCorreta": "NPM (Node Package Manager)"
+        },
+        {
+            "pergunta": "Qual é a função do estado (state) em um componente React?" ,
+            "respostas": ["Controlar o acesso ao banco de dados", "Definir as propriedades (props) de um componente", "Armazenar dados que podem ser alterados e afetar a renderização do componente", "Realizar chamadas de API", "Renderizar elementos do DOM"],
+            "respostaCorreta": "Armazenar dados que podem ser alterados e afetar a renderização do componente"
+        }, 
+        {
+            "pergunta": "O que é o conceito de 'unidirecionalidade' (one-way data flow) em React?",
+            "respostas": ["Significa que os dados só podem fluir em uma direção, do servidor para o cliente", "Refere-se à capacidade de um componente ler e escrever dados em outros componentes", "É a ideia de que os dados fluem em uma única direção, tornando o estado previsível e as atualizações mais fáceis de rastrear", " É uma técnica de animação usada para criar transições suaves na interface do usuário", "Significa que os dados podem fluir em qualquer direção, independentemente do fluxo"],
+            "respostaCorreta": "É a ideia de que os dados fluem em uma única direção, tornando o estado previsível e as atualizações mais fáceis de rastrear"
+        },
+        {
+            "pergunta": " Qual é a biblioteca de gerenciamento de estado recomendada para uso com o React?",
+            "respostas": ["jQuery", "Redux", "Angular", "Vue.js", "Handlebars"],
+            "respostaCorreta": "Redux"
+        },
+        {
+            "pergunta": "O que é um componente de classe (class component) em React?",
+            "respostas": ["Um componente que é construído com funções puras", "Um componente que não tem ciclo de vida", "Um componente que não pode receber propriedades (props)", "Um componente definido como uma classe ES6 que estende a classe Component do React", "Um componente que não pode conter métodos"],
+            "respostaCorreta": "Um componente definido como uma classe ES6 que estende a classe Component do React"
+        }
+    ]
+    
+    
+}
