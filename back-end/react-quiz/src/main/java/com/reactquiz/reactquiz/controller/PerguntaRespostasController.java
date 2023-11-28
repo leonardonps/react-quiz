@@ -17,26 +17,32 @@ public class PerguntaRespostasController {
     @Autowired
     PerguntaRespostasService service;
 
-    @PostMapping
+    @PostMapping("/criar-novo")
     @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity<PerguntaRespostas> create (@RequestBody PerguntaRespostas perguntaRespostas) {
         PerguntaRespostas perguntaRespostasCreated = service.create(perguntaRespostas);
         return ResponseEntity.status(201).body(perguntaRespostasCreated);
     }
 
-    @GetMapping("/all")
+    @PutMapping("/atualizar/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void update(@PathVariable Long id, @RequestBody PerguntaRespostas novoPerguntaRespostas) {
+        service.update(id, novoPerguntaRespostas);
+    }
+
+    @GetMapping("/todos")
     @ResponseStatus(HttpStatus.OK)
     public List<PerguntaRespostas> findAll() {
         return service.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/pesquisar-por-id/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Optional<PerguntaRespostas> findById(@PathVariable Long id) {
         return service.findById(id);
     }
 
-    @DeleteMapping("/{id}")
+    @PutMapping("/desativar/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void unableById(@PathVariable Long id) {
         service.unableById(id);

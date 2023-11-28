@@ -14,8 +14,33 @@ public class PerguntaRespostasService {
     @Autowired
     PerguntaRespostasRepository repository;
 
-    public PerguntaRespostas create (PerguntaRespostas perguntaRespostas) {
+    public PerguntaRespostas create(PerguntaRespostas perguntaRespostas) {
         return repository.save(perguntaRespostas);
+    }
+
+    public void update(Long id, PerguntaRespostas novoPerguntaRespostas) {
+        Optional<PerguntaRespostas> paraAtualizarPerguntaRespostas = repository.findById(id);
+
+        if(paraAtualizarPerguntaRespostas.isPresent()) {
+
+            if(novoPerguntaRespostas.getPergunta() != null) {
+                paraAtualizarPerguntaRespostas.get().setPergunta(novoPerguntaRespostas.getPergunta());
+            }
+
+            if(novoPerguntaRespostas.getRespostas() != null) {
+                paraAtualizarPerguntaRespostas.get().setRespostas(novoPerguntaRespostas.getRespostas());
+            }
+
+            if(novoPerguntaRespostas.getRespostaCorreta() != null) {
+                paraAtualizarPerguntaRespostas.get().setRespostaCorreta(novoPerguntaRespostas.getRespostaCorreta());
+            }
+
+            if(novoPerguntaRespostas.getAtivo() != null) {
+                paraAtualizarPerguntaRespostas.get().setAtivo(novoPerguntaRespostas.getAtivo());
+            }
+
+            repository.save(paraAtualizarPerguntaRespostas.get());
+        }
     }
 
     public List<PerguntaRespostas> findAll() {
