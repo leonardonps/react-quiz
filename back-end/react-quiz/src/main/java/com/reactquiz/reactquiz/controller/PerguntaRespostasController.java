@@ -42,7 +42,7 @@ public class PerguntaRespostasController {
         return service.findById(id);
     }
 
-    @PatchMapping("/desativar/{id}")
+    @PutMapping("/desativar/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void unableById(@PathVariable Long id) {
         service.unableById(id);
