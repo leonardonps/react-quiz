@@ -51,6 +51,6 @@ public class PerguntaRespostasController {
     @DeleteMapping("/deletar/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) {
-        service.deleteByid(id);
+        service.deleteById(id);
     }
 }
