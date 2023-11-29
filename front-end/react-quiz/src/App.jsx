@@ -18,10 +18,10 @@ function App() {
       const res = await fetch (url);
       const data = await res.json();
 
-      setBancoPerguntasRespostas(data)
+      setBancoPerguntasRespostas(data);
     }
-  fetchData()
-  }, [])
+  fetchData();
+  }, []);
 
 
   return (
@@ -59,7 +59,7 @@ function isFinalQuestion(index, tamanhoBanco) {
   if(index === (tamanhoBanco - 1)) {
     return "/resultado";
   } else {
-    return `/pergunta/${(index+2)}`
+    return `/pergunta/${(index+2)}`;
   }
 }
 
