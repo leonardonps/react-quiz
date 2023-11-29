@@ -18,6 +18,23 @@ public class PerguntaRespostasService {
         return repository.save(perguntaRespostas);
     }
 
+    public List<PerguntaRespostas> findAll() {
+        return repository.findAll();
+    }
+
+    public Optional<PerguntaRespostas> findById(Long id) {
+        return repository.findById(id);
+    }
+
+    public void unableById(Long id) {
+        Optional<PerguntaRespostas> perguntaRespostasToUnable = repository.findById(id);
+
+        if (perguntaRespostasToUnable.isPresent()) {
+            perguntaRespostasToUnable.get().setAtivo(false);
+            repository.save(perguntaRespostasToUnable.get());
+        }
+    }
+
     public void update(Long id, PerguntaRespostas novoPerguntaRespostas) {
         Optional<PerguntaRespostas> paraAtualizarPerguntaRespostas = repository.findById(id);
 
@@ -43,20 +60,7 @@ public class PerguntaRespostasService {
         }
     }
 
-    public List<PerguntaRespostas> findAll() {
-        return repository.findAll();
-    }
-
-    public Optional<PerguntaRespostas> findById(Long id) {
-        return repository.findById(id);
-    }
-
-    public void unableById(Long id) {
-        Optional<PerguntaRespostas> perguntaRespostasToUnable = repository.findById(id);
-
-        if (perguntaRespostasToUnable.isPresent()) {
-            perguntaRespostasToUnable.get().setAtivo(false);
-            repository.save(perguntaRespostasToUnable.get());
-        }
+    public void deleteById(Long id) {
+        repository.deleteById(id);
     }
 }

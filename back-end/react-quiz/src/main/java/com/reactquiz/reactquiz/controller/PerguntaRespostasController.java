@@ -47,4 +47,10 @@ public class PerguntaRespostasController {
     public void unableById(@PathVariable Long id) {
         service.unableById(id);
     }
+
+    @DeleteMapping("/deletar/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteById(@PathVariable Long id) {
+        service.deleteByid(id);
+    }
 }
